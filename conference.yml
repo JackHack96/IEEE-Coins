@@ -1,0 +1,977 @@
+# ─────────────────────────────────────────────────────────────
+# IEEE COINS – Conference Configuration
+# Edit ONLY this file each year to update the entire website.
+# Run: python build.py
+# ─────────────────────────────────────────────────────────────
+
+meta:
+  edition: 2026
+  acronym: "COINS"
+  full_name: "IEEE International Conference on Omni-Layer Intelligent Systems"
+  short_name: "IEEE COINS 2026"
+  tagline: "From Silicon to Cloud — Intelligence Across Every Layer"
+  domain: "coinsconf.com"
+  easychair_url: "https://easychair.org/conferences?conf=ieeecoins2026"
+  contact_email: "coins@coinsconf.com"
+  description: >
+    IEEE COINS brings together researchers, engineers, and industry leaders to advance
+    next-generation AI and intelligent systems spanning devices, architectures, and
+    applications. It emphasizes cross-layer co-design, energy-efficient and secure
+    computing, and the responsible integration of AI from embedded and edge platforms
+    to agentic and autonomous systems.
+
+dates:
+  conference_start: "2026-09-07"
+  conference_end:   "2026-09-09"
+  conference_display: "September 7–9, 2026"
+  countdown_iso: "2026-09-07T09:00:00"
+  deadlines:
+    - label: "Full Paper Submission"
+      note: "Via EasyChair — double-blind, fully anonymized"
+      date: "April 29, 2026"
+      iso: "2026-04-29"
+      status: "open"
+    - label: "Special Session / Workshop / Tutorial Proposals"
+      note: "Submit to program chairs"
+      date: "April 29, 2026"
+      iso: "2026-04-29"
+      status: "open"
+    - label: "Acceptance Notification"
+      note: "Authors notified of review decisions"
+      date: "June 2, 2026"
+      iso: "2026-06-02"
+      status: "upcoming"
+    - label: "Camera-Ready Submission"
+      note: "Final manuscript and IEEE copyright form"
+      date: "June 29, 2026"
+      iso: "2026-06-29"
+      status: "future"
+    - label: "Conference"
+      note: "University of Bologna, Italy"
+      date: "September 7–9, 2026"
+      iso: "2026-09-07"
+      status: "future"
+
+venue:
+  name: "San Giovanni in Monte Complex"
+  institution: "University of Bologna"
+  address: "Piazza San Giovanni in Monte, 2"
+  city: "Bologna"
+  country: "Italy"
+  zip: "40124"
+  maps_embed_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.9!2d11.3535!3d44.4938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4961ec5d135%3A0xe3fe8c8a7e4b4c0!2sPiazza%20San%20Giovanni%20in%20Monte%2C%202%2C%2040124%20Bologna%20BO%2C%20Italy!5e0!3m2!1sen!2sus!4v1"
+  official_url: "https://disci.unibo.it/en/department/facilities/piazza-s-giovanni-in-monte-2-bologna"
+  transport: >
+    The venue is in the city centre with limited parking.
+    Take TPER bus lines from Bologna Centrale train station.
+    Nearest parking: Parcheggio Piazza VIII Agosto or Parcheggio Stazione Bologna Centrale.
+  about_city: >
+    Bologna is the capital of the Emilia-Romagna region in northern Italy, famous for its
+    mediaeval towers and porticoes (UNESCO World Heritage), vibrant food scene (birthplace of
+    ragu and mortadella), and its university — one of the world's oldest. Excellent rail
+    connections from Milan, Florence, and Rome. September brings warm, pleasant weather
+    ideal for exploring the city between sessions.
+  photos:
+    - url: "https://www.sixt.it/magazine/wp-content/uploads//sites/8/2019/11/bologna-2630373_1280.jpg"
+      caption: "Piazza Maggiore, Bologna"
+    - url: "https://it.mediastorehouse.com/p/251/panorama-asinelli-tower-sunset-old-city-bologna-20126230.jpg.webp"
+      caption: "Bologna panorama from San Luca"
+    - url: "https://www.4starbologna.com/wp-content/uploads/2020/01/torri.jpg"
+      caption: "Torre degli Asinelli"
+    - url: "https://www.travelemiliaromagna.it/wp-content/uploads/2021/06/Bologna-SanPetronioPiazzaMaggiore1-e1542278593875.jpg"
+      caption: "University of Bologna"
+  hotels:
+    - name: "Hotel San Donato by Zanhotel"
+      stars: 4
+      walk_min: 8
+      note: "Closest to venue"
+    - name: "Hotel Corona d'Oro"
+      stars: 4
+      walk_min: 9
+      note: "Elegant boutique, University district"
+    - name: "Phi Hotel Bologna"
+      stars: 4
+      walk_min: 11
+      note: "1300s building, regional dining"
+    - name: "Art Hotel Commercianti"
+      stars: 4
+      walk_min: 11
+      note: "13th-century guild hall"
+    - name: "Hotel Touring Bologna"
+      stars: 4
+      walk_min: 9
+      note: "Rooftop hot tub, free breakfast"
+    - name: "Hotel Metropolitan Bologna"
+      stars: 4
+      walk_min: 16
+      note: "Modern, city centre"
+    - name: "Aemilia Hotel Bologna"
+      stars: 4
+      walk_min: 21
+      note: "Business-friendly, panoramic views"
+    - name: "Hotel Cavour"
+      stars: 3
+      walk_min: 13
+      note: ""
+    - name: "Albergo delle Drapperie"
+      stars: 3
+      walk_min: 7
+      note: "Best budget option near venue"
+
+sponsors:
+  - name: "IEEE Italy Section"
+    role: "Co-Sponsor"
+    url: "https://italy.ieeer8.org"
+  - name: "IEEE CS Italy Chapter"
+    role: "Co-Sponsor"
+    url: "https://www.computer.org"
+  - name: "IEEE ComSoc Italy Chapter"
+    role: "Co-Sponsor"
+    url: "https://www.comsoc.org"
+  - name: "IEEE RAS"
+    role: "Technical Co-Sponsor"
+    url: "https://www.ieee-ras.org"
+  - name: "IEEE CEDA"
+    role: "Technical Co-Sponsor"
+    url: "https://ieee-ceda.org"
+  - name: "IEEE CAS"
+    role: "Technical Co-Sponsor"
+    url: "https://ieee-cas.org"
+  - name: "IEEE Region 8"
+    role: "Co-Sponsor"
+    url: "https://ieeer8.org"
+  - name: "IEEE TCDE"
+    role: "Technical Co-Sponsor"
+    url: "https://tc.computer.org/tcde"
+
+stats:
+  - number: "12"
+    label: "Technical Tracks"
+  - number: "4"
+    label: "Thematic Clusters"
+  - number: "500+"
+    label: "Expected Attendees"
+  - number: "50+"
+    label: "Countries Represented"
+
+committee:
+  - role: "General Co-Chairs"
+    members:
+      - name: "Danilo Pau"
+        affiliation: "STMicroelectronics, Italy"
+        initials: "DP"
+      - name: "Andrea Acquaviva"
+        affiliation: "University of Bologna, Italy"
+        initials: "AA"
+  - role: "Program Co-Chairs"
+    color: "accent"
+    members:
+      - name: "Florenc Demrozi"
+        affiliation: "University of Stavanger, Norway"
+        initials: "FD"
+        email: "coins@coinsconf.com"
+      - name: "Federica Zonzini"
+        affiliation: "University of Bologna, Italy"
+        initials: "FZ"
+        email: "coins@coinsconf.com"
+  - role: "Steering Committee Co-Chairs"
+    members:
+      - name: "Krishnendu Chakrabarty"
+        affiliation: "Arizona State University, USA"
+        initials: "KC"
+      - name: "Farshad Firouzi"
+        affiliation: "Arizona State University, USA"
+        initials: "FF"
+  - role: "Industrial Chair"
+    members:
+      - name: "Michele Magno"
+        affiliation: "ETH Zurich, Switzerland"
+        initials: "MM"
+  - role: "Finance Chair"
+    members:
+      - name: "Jimmy Chen"
+        affiliation: "NTU, Taiwan"
+        initials: "JC"
+  - role: "Publication Co-Chairs"
+    members:
+      - name: "Francesco Barchi"
+        affiliation: "University of Bologna, Italy"
+        initials: "FB"
+      - name: "Kexin Li"
+        affiliation: "Arizona State University, USA"
+        initials: "KL"
+  - role: "Registration Co-Chairs"
+    members:
+      - name: "Setareh Behroozi"
+        affiliation: "University of Wisconsin-Madison, USA"
+        initials: "SB"
+      - name: "Luigi Capogrosso"
+        affiliation: "(IT:U), Austria"
+        initials: "LC"
+  - role: "Local Chairs"
+    color: "teal"
+    members:
+      - name: "Elena Gnani"
+        affiliation: "University of Bologna, Italy"
+        initials: "EG"
+      - name: "Luca De Marchi"
+        affiliation: "University of Bologna, Italy"
+        initials: "LM"
+  - role: "DNL Co-Chairs"
+    members:
+      - name: "Bahar Farahani"
+        affiliation: "Shahid Beheshti University, Iran"
+        initials: "BF"
+      - name: "Sara Vinco"
+        affiliation: "Politecnico di Torino, Italy"
+        initials: "SV"
+  - role: "Publicity Co-Chairs"
+    members:
+      - name: "Nicola Dall'Ora"
+        affiliation: "Guglielmo Marconi University, Italy"
+        initials: "ND"
+      - name: "Aly Sabri Abdalla"
+        affiliation: "Mississippi State University, USA"
+        initials: "AS"
+      - name: "Jessica Sena de Souza"
+        affiliation: "University of Florida, USA"
+        initials: "JS"
+      - name: "Sumit K. Mandal"
+        affiliation: "Indian Institute of Science, India"
+        initials: "SK"
+      - name: "Nicolo Bellarmino"
+        affiliation: "Politecnico di Torino, Italy"
+        initials: "NB"
+  - role: "Track Chairs"
+    members:
+      - name: "Maryam Parsa"
+        affiliation: "George Mason Univ., USA"
+        initials: "MP"
+        note: "Track 1"
+      - name: "Nathaniel Bleier"
+        affiliation: "Univ. of Michigan, USA"
+        initials: "NB"
+        note: "Track 1"
+      - name: "Alessio Burrello"
+        affiliation: "Polytechnic of Turin, Italy"
+        initials: "AB"
+        note: "Track 2"
+      - name: "Peipei Zhou"
+        affiliation: "Brown Univ., USA"
+        initials: "PZ"
+        note: "Track 2"
+      - name: "Edoardo Ragusa"
+        affiliation: "Univ. of Genoa, Italy"
+        initials: "ER"
+        note: "Track 3"
+      - name: "Federica Zonzini"
+        affiliation: "Univ. of Bologna, Italy"
+        initials: "FZ"
+        note: "Track 3"
+      - name: "Sokol Kosta"
+        affiliation: "Aalborg Univ., Denmark"
+        initials: "SK"
+        note: "Track 4"
+      - name: "Luca Borgianni"
+        affiliation: "Xtremion + Univ. of Pisa, Italy"
+        initials: "LB"
+        note: "Track 4"
+      - name: "Leila Ismail"
+        affiliation: "UAE University, UAE"
+        initials: "LI"
+        note: "Track 5"
+      - name: "Renyu Yang"
+        affiliation: "Beihang Univ., China"
+        initials: "RY"
+        note: "Track 5"
+      - name: "Francesco Barchi"
+        affiliation: "Univ. of Bologna, Italy"
+        initials: "FB"
+        note: "Track 6"
+      - name: "Francesco Ponzio"
+        affiliation: "Polytechnic of Turin, Italy"
+        initials: "FP"
+        note: "Track 6"
+      - name: "Annachiara Ruospo"
+        affiliation: "Polytechnic of Turin, Italy"
+        initials: "AR"
+        note: "Track 7"
+      - name: "Francesco Regazzoni"
+        affiliation: "USI, Switzerland"
+        initials: "FR"
+        note: "Track 7"
+      - name: "Mary He"
+        affiliation: "Univ. of Salford, UK"
+        initials: "MH"
+        note: "Track 8"
+      - name: "Laura Falaschetti"
+        affiliation: "Univ. Politecnica delle Marche, Italy"
+        initials: "LF"
+        note: "Track 8"
+      - name: "Yante Li"
+        affiliation: "Univ. of Oulu, Finland"
+        initials: "YL"
+        note: "Track 9"
+      - name: "Yang Merik Liu"
+        affiliation: "Stanford Univ., USA"
+        initials: "YL"
+        note: "Track 9"
+      - name: "Fadi Al Machot"
+        affiliation: "NMBU, Norway"
+        initials: "FM"
+        note: "Track 10"
+      - name: "Edlira Vakaj"
+        affiliation: "Birmingham City Univ., UK"
+        initials: "EV"
+        note: "Track 10"
+      - name: "Ferhat Ozgur Catak"
+        affiliation: "Univ. of Stavanger, Norway"
+        initials: "FC"
+        note: "Track 11"
+      - name: "Ogerta Elezaj"
+        affiliation: "Birmingham City Univ., UK"
+        initials: "OE"
+        note: "Track 11"
+      - name: "Ioanna Roussaki"
+        affiliation: "NTUA, Greece"
+        initials: "IR"
+        note: "Track 12"
+      - name: "Luigi Borzi"
+        affiliation: "Polytechnic of Turin, Italy"
+        initials: "LB"
+        note: "Track 12"
+
+keynotes:
+  - id: "k1"
+    type: "Academic Keynote"
+    name: "Luca Benini"
+    affiliation: "University of Bologna, Italy — ETH Zurich, Switzerland"
+    title: "Designing Digital Platforms for Wearable Contextual Intelligence"
+    abstract: >
+      Wearable devices are evolving toward smart, context-aware digital assistants by leveraging
+      rapidly increasing generative AI capabilities on device, at the extreme edge. Running
+      multimodal generative AI models on a wearable device requires tackling major challenges
+      in model distillation, as well as in energy and latency aware hardware-software platform
+      design. In this talk I will explore model-to-chip design for wearable contextual
+      intelligence, focusing on brain inspired heterogeneous computing with multi-domain acceleration.
+    bio: >
+      Luca Benini holds the chair of Digital Circuits and Systems at ETH Zurich and is Full Professor
+      at the University of Bologna. His research interests span from ultra-low power integrated
+      circuit and system design to multi-core SoC design, machine learning for embedded systems,
+      and brain-inspired neuromorphic computing.
+    photo: ""
+    day: "Monday, September 7, 2026"
+    time: "09:00 – 10:00 CEST"
+    confirmed: true
+
+  - id: "k2"
+    type: "Academic Keynote"
+    name: "Vijay Janapa Reddi"
+    affiliation: "Harvard University, USA"
+    title: "From Omni Layer AI to AI Engineering: Why Intelligent Systems Need a Discipline"
+    abstract: >
+      AI spans the computing stack from in-memory hardware and chiplets to cloud models,
+      agentic autonomy, and safety deployments. Conferences like COINS unite these layers,
+      yet intellectual foundations fragment: hardware optimizes efficiency, systems scale
+      operations, agentic AI enhances reasoning, responsible AI governs ethics. Lacking
+      cross-layer abstractions and lifecycle evaluations, progress stalls. AI Engineering
+      emerges as the solution, integrating all via shared frameworks, reproducibility, and
+      deployment principles — treating systems as impactful infrastructures. Pillars include
+      abstractions, evaluations, benchmarking, and education. Goal: trustworthy, scalable
+      intelligence. Key question: Can we engineer omni-layer AI responsibly at scale?
+    bio: >
+      Vijay Janapa Reddi is an Associate Professor at Harvard University. His research spans
+      mobile and edge computing, machine learning systems, and AI benchmarking. He is
+      co-founder of MLCommons and a key contributor to the MLPerf benchmarking suite.
+    photo: ""
+    day: "Tuesday, September 8, 2026"
+    time: "09:00 – 10:00 CEST"
+    confirmed: true
+
+  - id: "k3"
+    type: "Academic Keynote"
+    name: "Elisa Ricci"
+    affiliation: "University of Trento — Fondazione Bruno Kessler, Italy"
+    title: "Trustworthy AI"
+    abstract: >
+      Full abstract to be announced. This keynote will address key challenges and research
+      directions in building trustworthy AI systems — covering fairness, robustness,
+      interpretability, and safe deployment in real-world scenarios.
+    bio: >
+      Elisa Ricci is Full Professor at the University of Trento and a researcher at
+      Fondazione Bruno Kessler (FBK). Her research focuses on computer vision and machine
+      learning, with emphasis on domain adaptation, continual learning, and trustworthy AI.
+    photo: ""
+    day: "Wednesday, September 9, 2026"
+    time: "09:00 – 10:00 CEST"
+    confirmed: true
+
+  - id: "k4"
+    type: "Industrial Keynote"
+    name: "Valeria Tomaselli"
+    affiliation: "SW Design Senior Team Leader, STMicroelectronics"
+    title: "Industrial Keynote — TBA"
+    abstract: "Full details to be announced. Industrial keynote from STMicroelectronics."
+    bio: >
+      Valeria Tomaselli is SW Design Senior Team Leader at STMicroelectronics, with expertise
+      in embedded AI and edge intelligence for consumer and industrial applications.
+    photo: ""
+    day: "Tuesday, September 8, 2026"
+    time: "13:00 – 13:45 CEST"
+    confirmed: true
+
+tutorials:
+  - id: "t1"
+    title: "From TinyML to EdgeAI — Tutorial and Practical Examples"
+    presenter: "Danilo Pau"
+    affiliation: "STMicroelectronics, Italy"
+    duration: "Half-day"
+    abstract: >
+      This tutorial covers the full spectrum from TinyML to Edge AI, with hands-on practical
+      examples on real hardware and software frameworks. Participants will learn model
+      optimization techniques, deployment workflows on microcontrollers and edge devices,
+      and gain first-hand experience with industry-grade tools and pipelines.
+    confirmed: true
+
+  - id: "t2"
+    title: "RISC-V Architectures and Ecosystem"
+    presenter: "University of Bologna — ETH Zurich Team"
+    affiliation: "University of Bologna / ETH Zurich"
+    duration: "Half-day"
+    abstract: >
+      This tutorial introduces the RISC-V open instruction set architecture and its growing
+      ecosystem of processors, extensions, and tools. Topics include the RISC-V ISA, custom
+      extensions for AI acceleration, open-source toolchains, and the PULP platform developed
+      at the University of Bologna and ETH Zurich.
+    confirmed: true
+
+competitions:
+  - id: "c1"
+    title: "IEEE COINS AI Challenge 2026"
+    topic: "On-Device Efficient Inference"
+    description: >
+      Design and implement an efficient AI inference pipeline targeting embedded and edge
+      platforms. Evaluation metrics include accuracy, latency, and energy efficiency. Open
+      to student teams worldwide.
+    prize: "TBA"
+    deadline: "TBA"
+    contact: "coins@coinsconf.com"
+    confirmed: false
+
+phd_forum:
+  title: "PhD & Student Forum"
+  description: >
+    The PhD forum is organized as a poster session with 1-minute 1-slide oral introductions
+    from students to engage the audience. The forum provides an opportunity for graduate
+    students to explore their research interests in an interdisciplinary workshop under the
+    guidance of a panel of distinguished experts from both industry and academia.
+  what_you_get:
+    - "Present your research (1 slide + 1-minute oral + 1 poster) to specialists and a broad audience from the CAD, CAS, IoT, and AI community."
+    - "Receive valuable feedback and foster networking from peers and experienced faculty."
+    - "Establish contacts for entering the job market."
+    - "Discuss ongoing trends in AI, IoT, CAS, and RAS."
+  eligibility:
+    - "Students who have finished their PhD thesis within the last 12 months."
+    - "Students at any year of their PhD research activity."
+  submission_info: >
+    Submit a 2-page extended abstract (PDF) describing the novelties and advantages of the
+    thesis work. Include name and affiliation. There will be no IEEE publications, but
+    abstracts will be made available to all attendees in electronic format.
+  submission_deadline: "TBA"
+  notification: "TBA"
+  format: "Poster session with 1-slide, 1-minute oral introduction per student."
+  contact: "l.falaschetti@univpm.it"
+  chairs:
+    - name: "Laura Falaschetti"
+      affiliation: "Universita Politecnica delle Marche, Italy"
+      email: "l.falaschetti@univpm.it"
+      initials: "LF"
+
+workshops:
+  - id: "w1"
+    title: "TBA"
+    organizers: "TBA"
+    duration: "Half-day"
+    description: "Workshop details will be announced after proposal review."
+    confirmed: false
+
+featured_activities:
+  - label: "Panels"
+    icon: "🎤"
+    description: "Panel sessions on DEI, industrial perspectives, and future research directions."
+  - label: "Diversity, Equity & Inclusion"
+    icon: "🌍"
+    description: "Dedicated DEI programming and networking events."
+  - label: "Industrial Talks"
+    icon: "🏭"
+    description: "Presentations from leading industry practitioners."
+  - label: "Workshops & Tutorials"
+    icon: "🎓"
+    description: "Hands-on sessions on cutting-edge techniques."
+  - label: "Special Sessions"
+    icon: "⚡"
+    description: "Focused invited sessions on emerging cross-disciplinary topics."
+  - label: "Workforce Development"
+    icon: "🚀"
+    description: "Career development and networking opportunities."
+
+program:
+  status: "draft"
+  status_note: "Detailed program finalized after acceptance notifications (June 2, 2026)."
+  days:
+    - id: "day1"
+      label: "Monday, September 7"
+      short: "Mon Sep 7"
+      sessions:
+        - time: "08:00 – 09:00"
+          type: "break"
+          title: "Registration & Welcome Coffee"
+          detail: "Main Lobby"
+        - time: "09:00 – 09:30"
+          type: "keynote"
+          title: "Opening Ceremony"
+          detail: "General Chairs · Sponsor Representatives"
+        - time: "09:00 – 10:00"
+          type: "keynote"
+          title: "Keynote: Luca Benini — Designing Digital Platforms for Wearable Contextual Intelligence"
+          detail: "University of Bologna / ETH Zurich"
+        - time: "10:00 – 10:30"
+          type: "break"
+          title: "Coffee Break"
+          detail: ""
+        - time: "10:30 – 12:30"
+          type: "technical"
+          title: "Session 1A: AI Hardware, Circuits & Devices (Track 1)"
+          detail: "Papers TBA"
+        - time: "10:30 – 12:30"
+          type: "technical"
+          title: "Session 1B: AI-Native Connectivity & Networks (Track 4)"
+          detail: "Parallel Track"
+        - time: "12:30 – 14:00"
+          type: "break"
+          title: "Lunch Break"
+          detail: ""
+        - time: "14:00 – 16:00"
+          type: "technical"
+          title: "Session 2A: AI Architectures & Systems Design (Track 3)"
+          detail: ""
+        - time: "14:00 – 16:00"
+          type: "technical"
+          title: "Session 2B: IoT & Cyber-Physical Intelligence (Track 6)"
+          detail: "Parallel Track"
+        - time: "16:00 – 16:30"
+          type: "break"
+          title: "Coffee Break"
+          detail: ""
+        - time: "16:30 – 18:00"
+          type: "special"
+          title: "Special Session: Emerging Technology Enablers for IoT-AI Ecosystems"
+          detail: "Chair: Mian Ahmad Jan, University of Sharjah"
+        - time: "19:00 – 22:00"
+          type: "social"
+          title: "Welcome Reception"
+          detail: "Historic Bologna venue — included in full registration"
+    - id: "day2"
+      label: "Tuesday, September 8"
+      short: "Tue Sep 8"
+      sessions:
+        - time: "08:30 – 09:00"
+          type: "break"
+          title: "Morning Coffee"
+          detail: ""
+        - time: "09:00 – 10:00"
+          type: "keynote"
+          title: "Keynote: Vijay Janapa Reddi — From Omni Layer AI to AI Engineering"
+          detail: "Harvard University, USA"
+        - time: "10:00 – 10:30"
+          type: "break"
+          title: "Coffee Break"
+          detail: ""
+        - time: "10:30 – 12:30"
+          type: "technical"
+          title: "Session 3A: AI-Driven Design Automation (Track 2)"
+          detail: ""
+        - time: "10:30 – 12:30"
+          type: "technical"
+          title: "Session 3B: Secure & Trustworthy AI (Track 7)"
+          detail: "Parallel Track"
+        - time: "12:30 – 13:00"
+          type: "break"
+          title: "Lunch Break"
+          detail: ""
+        - time: "13:00 – 13:45"
+          type: "keynote"
+          title: "Industrial Keynote: Valeria Tomaselli — TBA"
+          detail: "STMicroelectronics"
+        - time: "14:00 – 15:30"
+          type: "special"
+          title: "Tutorial: From TinyML to EdgeAI"
+          detail: "Danilo Pau, STMicroelectronics"
+        - time: "14:00 – 15:30"
+          type: "special"
+          title: "Tutorial: RISC-V Architectures and Ecosystem"
+          detail: "University of Bologna — ETH Zurich"
+        - time: "15:30 – 16:00"
+          type: "break"
+          title: "Coffee Break"
+          detail: ""
+        - time: "16:00 – 17:30"
+          type: "special"
+          title: "Special Session: Emerging Blockchain Technologies for IoT and AI"
+          detail: ""
+        - time: "17:30 – 18:30"
+          type: "special"
+          title: "PhD & Student Forum — Poster Session"
+          detail: "1-slide, 1-minute oral introductions + poster viewing"
+        - time: "19:30 – 23:00"
+          type: "social"
+          title: "Conference Gala Dinner"
+          detail: "Traditional Bolognese dinner · Best Paper Awards"
+    - id: "day3"
+      label: "Wednesday, September 9"
+      short: "Wed Sep 9"
+      sessions:
+        - time: "08:30 – 09:00"
+          type: "break"
+          title: "Morning Coffee"
+          detail: ""
+        - time: "09:00 – 10:00"
+          type: "keynote"
+          title: "Keynote: Elisa Ricci — Trustworthy AI"
+          detail: "University of Trento — Fondazione Bruno Kessler, Italy"
+        - time: "10:00 – 10:30"
+          type: "break"
+          title: "Coffee Break"
+          detail: ""
+        - time: "10:30 – 12:30"
+          type: "technical"
+          title: "Session 5A: Foundational, Generative & Cognitive AI (Track 9)"
+          detail: ""
+        - time: "10:30 – 12:30"
+          type: "technical"
+          title: "Session 5B: Agentic & Robotic AI (Track 8)"
+          detail: "Parallel Track"
+        - time: "12:30 – 14:00"
+          type: "break"
+          title: "Lunch Break"
+          detail: ""
+        - time: "14:00 – 16:00"
+          type: "technical"
+          title: "Session 6A: Human-Centered & Responsible AI (Tracks 10–11)"
+          detail: ""
+        - time: "14:00 – 16:00"
+          type: "technical"
+          title: "Session 6B: Vertical Applications (Track 12)"
+          detail: "Parallel Track"
+        - time: "16:00 – 16:30"
+          type: "break"
+          title: "Coffee Break"
+          detail: ""
+        - time: "16:30 – 17:30"
+          type: "special"
+          title: "Special Session: Emerging Edge AI and Generative AI — On-Device LLMs"
+          detail: ""
+        - time: "17:30 – 18:15"
+          type: "keynote"
+          title: "Closing Ceremony & Best Paper Awards"
+          detail: "General Chairs · COINS 2027 Announcement"
+
+cfp:
+  submission_deadline: "April 29, 2026"
+  proposal_deadline: "April 29, 2026"
+  cfp_pdf_url: "/../static/docs/CFP-IEEECOINS26.pdf"
+  ieee_template_url: "https://www.ieee.org/conferences/publishing/templates.html"
+  max_pages: 6
+  extra_page_fee: 150
+  max_extra_pages: 2
+  review_type: "Double-blind"
+  program_chairs:
+    - name: "Florenc Demrozi"
+      affiliation: "University of Stavanger, Norway"
+      email: "coins@coinsconf.com"
+    - name: "Federica Zonzini"
+      affiliation: "University of Bologna, Italy"
+      email: "coins@coinsconf.com"
+  clusters:
+    - id: "c1"
+      number: "Cluster 1"
+      title: "Enabling Intelligence"
+      subtitle: "Hardware — Design — Architecture"
+      tracks:
+        - number: "Track 1"
+          title: "AI Hardware, Circuits, and Devices"
+          description: "Physical and circuit-level foundations of intelligent computing."
+          topics:
+            - "Compute-in-memory (CIM/PIM) and near-sensor computing"
+            - "Analog and mixed-signal AI accelerators"
+            - "On-chip and in-memory learning"
+            - "Low-power and energy-efficient AI hardware"
+            - "Heterogeneous integration (2.5D/3D, chiplets)"
+            - "Emerging devices and materials (photonic, quantum, neuromorphic)"
+            - "Reliability, variation tolerance, and aging-aware design"
+          keywords: ["CIM/PIM", "Analog MACs", "On-chip learning", "Chiplets", "Photonic AI"]
+        - number: "Track 2"
+          title: "AI-Driven Design Automation and Optimization"
+          description: "ML-enabled EDA and cross-layer optimization."
+          topics:
+            - "Machine learning for EDA flows"
+            - "AI-assisted placement, routing, and timing closure"
+            - "Reinforcement learning for design-space exploration"
+            - "Generative design and circuit synthesis"
+            - "Formal verification, testing, and ATPG"
+            - "HW/SW co-design and PPA optimization"
+            - "Telemetry-driven and runtime optimization"
+          keywords: ["ML for EDA", "Timing closure", "Formal verification", "HW/SW co-synthesis"]
+        - number: "Track 3"
+          title: "AI Architectures and Systems Design"
+          description: "Next-generation AI accelerators and system architectures."
+          topics:
+            - "AI accelerator architectures and dataflow design"
+            - "Memory-centric and bandwidth-aware architectures"
+            - "Sparsity, quantization, and compression support"
+            - "Chiplet-based and RISC-V AI systems"
+            - "Interconnects, NoCs, and coherence protocols"
+            - "Compiler and runtime co-design"
+            - "Scalable training and inference systems"
+          keywords: ["AI accelerators", "RISC-V", "NoC/Interconnect", "HBM/HMC", "Dataflow"]
+    - id: "c2"
+      number: "Cluster 2"
+      title: "Connected Intelligence"
+      subtitle: "Network — Cloud — IoT"
+      tracks:
+        - number: "Track 4"
+          title: "AI-Native Connectivity, Networks, and Distributed Intelligence"
+          description: "AI-native communication and network intelligence across 6G/7G systems."
+          topics:
+            - "AI-native and semantic communications (6G/7G)"
+            - "Federated and in-network learning"
+            - "O-RAN RIC (xApps/rApps)"
+            - "Integrated sensing, communication, and computation"
+            - "Reconfigurable intelligent surfaces (RIS)"
+            - "Network digital twins and self-organizing networks"
+          keywords: ["6G/7G", "O-RAN RIC", "Federated learning", "RIS/ISAC", "Semantic comms"]
+        - number: "Track 5"
+          title: "Cloud, Infrastructure, and Data-Centric Intelligence"
+          description: "AI computing infrastructure and data engineering."
+          topics:
+            - "Cloud-edge orchestration and virtualization"
+            - "Data pipelines, feature stores, and vector databases"
+            - "MLOps and LLMOps"
+            - "LLM serving and inference optimization"
+            - "Autoscaling, SLA-aware resource management"
+            - "Sustainable and energy-efficient cloud infrastructures"
+            - "Blockchain and data provenance"
+          keywords: ["MLOps/LLMOps", "Vector DBs", "Model serving", "Digital twins", "Autoscaling"]
+        - number: "Track 6"
+          title: "Internet of Things (IoT) and Cyber-Physical Intelligence"
+          description: "IoT, edge intelligence, and cyber-physical systems."
+          topics:
+            - "Intelligent sensing and actuation"
+            - "Embedded AI and TinyML"
+            - "Cyber-physical systems and real-time analytics"
+            - "Time-sensitive networking (TSN)"
+            - "Hardware-in-the-loop simulation"
+            - "Industrial IoT and smart infrastructure"
+            - "Digital twins and adaptive IoT systems"
+          keywords: ["TinyML", "TSN", "CPS", "Edge-cloud", "Digital twins", "Adaptive IoT"]
+    - id: "c3"
+      number: "Cluster 3"
+      title: "Trusted and Autonomous Intelligence"
+      subtitle: "Security — Agency — Cognition"
+      tracks:
+        - number: "Track 7"
+          title: "Secure, Reliable, and Trustworthy AI Systems"
+          description: "Hardware and AI security for trustworthy intelligent systems."
+          topics:
+            - "Hardware and AI security"
+            - "Side-channel and fault-injection attacks"
+            - "Privacy-preserving and federated learning"
+            - "Model watermarking and supply-chain security"
+            - "Runtime attestation and monitoring"
+            - "Certified robustness and verification"
+            - "AI governance and lifecycle assurance"
+          keywords: ["AI security", "Adversarial robustness", "Privacy (FL/DP/HE)", "Attestation"]
+        - number: "Track 8"
+          title: "Agentic and Robotic AI Systems"
+          description: "Autonomous and agentic AI in software and embodied forms."
+          topics:
+            - "Autonomous and agentic AI systems"
+            - "Robotics perception, SLAM, and manipulation"
+            - "Task and motion planning (TAMP)"
+            - "Reinforcement learning for control"
+            - "Multi-robot systems and coordination"
+            - "LLM-enabled robotic agents and embodied AI"
+            - "Sim-to-real transfer and field validation"
+          keywords: ["Robotics", "SLAM", "TAMP", "Multi-robot", "Sim-to-real", "Embodied AI"]
+        - number: "Track 9"
+          title: "Foundational, Generative, and Cognitive AI"
+          description: "Core algorithmic and model innovations in AI."
+          topics:
+            - "Foundation and multimodal models (LLMs, VLMs)"
+            - "Generative AI and generative design"
+            - "Retrieval-augmented generation (RAG)"
+            - "Parameter-efficient fine-tuning (LoRA/QLoRA)"
+            - "Reinforcement learning and alignment"
+            - "Neurosymbolic and cognitive architectures"
+            - "Continual and efficient learning"
+          keywords: ["LLMs/VLMs", "RAG", "LoRA/QLoRA", "RLHF", "Continual learning", "Alignment"]
+    - id: "c4"
+      number: "Cluster 4"
+      title: "Human-Aligned and Applied Intelligence"
+      subtitle: "Human — Ethics — Industry"
+      tracks:
+        - number: "Track 10"
+          title: "Human-Centered AI, Interaction, and Visualization"
+          description: "Human-AI interfaces and decision support systems."
+          topics:
+            - "Explainable and interpretable AI interfaces"
+            - "Human-AI interaction and decision support"
+            - "Visualization of uncertainty and provenance"
+            - "XR/AR/VR for operations and training"
+            - "Conversational interfaces and multimodal interaction"
+            - "Human-in-the-loop systems and evaluation"
+            - "Trust, usability, and safety UX"
+          keywords: ["XAI", "XR/AR/VR", "Human-in-the-loop", "Trust & safety UX", "Provenance"]
+        - number: "Track 11"
+          title: "Responsible, Ethical, and Sustainable AI"
+          description: "Fairness, accountability, and sustainability in AI lifecycles."
+          topics:
+            - "Fairness, accountability, and transparency"
+            - "AI risk management and impact assessment"
+            - "Auditing, reporting, and model documentation"
+            - "AI governance and policy frameworks"
+            - "Safety certification and compliance"
+            - "Environmental impact of AI systems"
+            - "Sustainable AI practices"
+          keywords: ["Fairness", "Transparency", "Governance", "Sustainability", "Risk management"]
+        - number: "Track 12"
+          title: "Vertical Applications in Smart Cities, Industry 4.0, Healthcare & Beyond"
+          description: "AI-driven applications demonstrating real-world impact."
+          topics:
+            - "AI applications in healthcare and digital medicine"
+            - "Industry 4.0 and predictive manufacturing"
+            - "Process control and industrial automation"
+            - "Smart energy, mobility, and logistics"
+            - "Urban digital twins and smart cities"
+            - "Resilient and sustainable infrastructures"
+            - "Cross-domain AI integration"
+          keywords: ["AIoT", "Digital medicine", "Industry 4.0", "Smart cities", "Smart agriculture"]
+  special_sessions:
+    - title: "Emerging Technology Enablers for IoT-AI Ecosystems"
+      chair: "Mian Ahmad Jan, University of Sharjah"
+      description: >
+        Focuses on emerging enabling technologies driving the convergence of IoT and AI,
+        with emphasis on embodied, physical, and agentic intelligence in real-world systems.
+        Covers edge and embedded AI, distributed multi-agent systems, large-scale AI models,
+        and next-generation communication technologies.
+      keywords: ["Embodied AI", "Physical AI", "Agentic AI", "Edge AI", "LLMs", "5G/6G"]
+    - title: "Emerging Blockchain Technologies for IoT and AI Systems"
+      chair: "TBA"
+      description: >
+        Blockchain and distributed ledger technologies for secure, decentralized IoT and AI
+        systems. Covers data integrity, trust management, smart contracts, edge computing
+        integration, and privacy-preserving mechanisms.
+      keywords: ["Blockchain", "DLT", "Smart contracts", "Decentralized systems", "Trust management"]
+    - title: "Emerging Edge AI and Generative AI: On-Device LLMs"
+      chair: "TBA"
+      description: >
+        Convergence of Edge AI and Generative AI, emphasizing on-device LLMs. Covers TinyML,
+        model compression, quantization, MoE, distributed edge-cloud collaboration, and
+        hardware-software co-design.
+      keywords: ["On-device LLMs", "TinyML", "Quantization", "MoE", "Efficient inference"]
+
+registration:
+  open: false
+  open_date: "On or around June 2, 2026"
+  early_deadline: "June 29, 2026"
+  extra_page_fee: 150
+  rates:
+    - type: "IEEE Member — Early"
+      category: "member"
+      price: 550
+      currency: "$"
+      note: "Register by June 29, 2026"
+      featured: false
+      includes:
+        - "Conference access (3 days)"
+        - "Proceedings (IEEE Xplore)"
+        - "Welcome reception & coffee breaks"
+        - "Conference bag & materials"
+    - type: "IEEE Member — Regular"
+      category: "member"
+      price: 650
+      currency: "$"
+      note: "After June 29, 2026"
+      featured: true
+      includes:
+        - "Conference access (3 days)"
+        - "Proceedings (IEEE Xplore)"
+        - "Welcome reception & coffee breaks"
+        - "Conference bag & materials"
+    - type: "Non-Member — Early"
+      category: "nonmember"
+      price: 700
+      currency: "$"
+      note: "Register by June 29, 2026"
+      featured: false
+      includes:
+        - "Conference access (3 days)"
+        - "Proceedings (IEEE Xplore)"
+        - "Welcome reception & coffee breaks"
+        - "Conference bag & materials"
+    - type: "Non-Member — Regular"
+      category: "nonmember"
+      price: 800
+      currency: "$"
+      note: "After June 29, 2026"
+      featured: false
+      includes:
+        - "Conference access (3 days)"
+        - "Proceedings (IEEE Xplore)"
+        - "Welcome reception & coffee breaks"
+        - "Conference bag & materials"
+    - type: "Student (IEEE Member)"
+      category: "student"
+      price: 350
+      currency: "$"
+      note: "Valid student ID required"
+      featured: false
+      includes:
+        - "Conference access (3 days)"
+        - "Proceedings (IEEE Xplore)"
+        - "Welcome reception & coffee breaks"
+        - "PhD Forum & student grant eligibility"
+    - type: "Listener / Attendee Only"
+      category: "listener"
+      price: 300
+      currency: "$"
+      note: "No paper required"
+      featured: false
+      includes:
+        - "Conference access (3 days)"
+        - "Keynotes & sessions"
+        - "Coffee breaks"
+        - "No paper in proceedings"
+
+past_editions:
+  - year: 2025
+    location: "Madison, Wisconsin, USA"
+    url: "https://coinsconf.com/2025"
+  - year: 2024
+    location: "London, UK"
+    url: "https://coinsconf.com/2024"
+  - year: 2023
+    location: "Berlin, Germany"
+    url: "https://coinsconf.com/2023"
+  - year: 2022
+    location: "Barcelona, Spain"
+    url: "https://coinsconf.com/2022"
+  - year: 2021
+    location: "Virtual"
+    url: "https://coinsconf.com/2021"
+  - year: 2020
+    location: "Virtual"
+    url: "https://2020.coinsconf.com"
+  - year: 2019
+    location: "Crete, Greece"
+    url: "https://coinsconf.com/2019"

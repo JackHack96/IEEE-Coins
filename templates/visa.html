@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% set depth = "../" %}
+{% block title %}VISA Information{% endblock %}
+{% block content %}
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> VISA Information</div>
+    <h1>VISA Information</h1>
+    <p>{{ conf.venue.city }}, {{ conf.venue.country }} is in the Schengen Area. Many nationalities require a Schengen short-stay visa.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="section-inner">
+    <div class="info-box warning">
+      <strong>⚠️ Apply Early</strong>
+      <p>VISA processing times vary by country. We strongly recommend applying at least 6–8 weeks before travel. Conference organizers can provide an official invitation letter.</p>
+    </div>
+    <h2 style="font-family:'Fraunces',serif;font-size:1.4rem;margin-top:2rem;margin-bottom:1rem">Do I Need a VISA?</h2>
+    <p style="color:var(--gray-dark);max-width:720px;line-height:1.8">{{ conf.venue.country }} is a member of the Schengen Area. EU/EEA/Swiss citizens do not need a VISA. Many other nationalities (US, UK, Canada, Australia, Japan, South Korea…) can enter for short stays without a VISA. Citizens of many other countries require a Schengen Short-Stay (C) VISA. Check your country's requirements at the <a href="https://vistoperitalia.esteri.it/home/en" target="_blank">Italian Ministry of Foreign Affairs VISA portal</a>.</p>
+    <h2 style="font-family:'Fraunces',serif;font-size:1.4rem;margin-top:2.5rem;margin-bottom:1rem">Invitation Letter</h2>
+    <p style="color:var(--gray-dark);max-width:720px;line-height:1.8">Registered authors and attendees requiring an official invitation letter should contact <a href="mailto:{{ conf.meta.contact_email }}">{{ conf.meta.contact_email }}</a> after completing registration. Please include: full name (as on passport), passport number and expiry, institution/affiliation, country of residence, paper title (if applicable), and proof of registration.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem">
+      <a href="https://vistoperitalia.esteri.it/home/en" target="_blank" style="text-decoration:none">
+        <div style="border:1px solid var(--gray-light);padding:1.25rem;border-radius:4px;transition:border-color 0.2s" onmouseover="this.style.borderColor='var(--blue-bright)'" onmouseout="this.style.borderColor='var(--gray-light)'">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem">🇮🇹</div>
+          <div style="font-weight:600;font-size:0.9rem;color:var(--text)">Italian VISA Portal</div>
+          <div style="font-size:0.8rem;color:var(--gray-dark);margin-top:0.25rem">vistoperitalia.esteri.it</div>
+        </div>
+      </a>
+      <a href="https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/schengen-visa_en" target="_blank" style="text-decoration:none">
+        <div style="border:1px solid var(--gray-light);padding:1.25rem;border-radius:4px;transition:border-color 0.2s" onmouseover="this.style.borderColor='var(--blue-bright)'" onmouseout="this.style.borderColor='var(--gray-light)'">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem">🇪🇺</div>
+          <div style="font-weight:600;font-size:0.9rem;color:var(--text)">Schengen VISA Info</div>
+          <div style="font-size:0.8rem;color:var(--gray-dark);margin-top:0.25rem">European Commission</div>
+        </div>
+      </a>
+    </div>
+    <div style="margin-top:2rem"><a href="venue.html" class="btn btn-primary btn-sm">← Conference Venue</a></div>
+  </div>
+</section>
+{% endblock %}
