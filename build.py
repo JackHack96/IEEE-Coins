@@ -8,6 +8,10 @@ import os, shutil, yaml
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+# Get base URL from environment, default to empty for root domain
+# Usage: BASE_URL=/ieee-coins python build.py
+BASE_URL = os.getenv("BASE_URL", "").rstrip("/")
+
 BASE   = Path(__file__).parent
 TMPL   = BASE / "templates"
 STATIC = BASE / "static"
@@ -28,7 +32,7 @@ env = Environment(
 # ── helpers ───────────────────────────────────────────────────
 def render(template_name, out_path, extra=None):
     t = env.get_template(template_name)
-    ctx = {"conf": conf}
+    ctx = {"conf": conf, "base_url": BASE_URL}
     if extra:
         ctx.update(extra)
     out_path.parent.mkdir(parents=True, exist_ok=True)

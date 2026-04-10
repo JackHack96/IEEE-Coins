@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Conference Committee{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Conference Committee</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Conference Committee</div>
     <h1>Conference Committee</h1>
     <p>{{ conf.meta.short_name }} is organized by a dedicated international committee from leading institutions worldwide.</p>
   </div>

@@ -30,6 +30,8 @@ jobs:
         run: pip install pyyaml jinja2
 
       - name: Build site
+        env:
+          BASE_URL: /${{ github.event.repository.name }}
         run: python build.py
 
       - name: Upload artifact

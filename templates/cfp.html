@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Call for Papers{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Call for Papers</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Call for Papers</div>
     <div class="hero-eyebrow" style="margin-top:0.75rem;display:inline-flex">Submission Open</div>
     <h1>Call for Papers</h1>
     <p>Original research on intelligent systems spanning hardware, AI, networks, and applications. Deadline: <strong style="color:var(--accent)">{{ conf.cfp.submission_deadline }}</strong>.</p>

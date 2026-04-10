@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Call for Proposals{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Call for Proposals</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Call for Proposals</div>
     <h1>Call for Proposals</h1>
     <p>{{ conf.meta.short_name }} invites proposals for workshops, tutorials, special sessions, and panels. Deadline: <strong style="color:var(--accent)">{{ conf.cfp.proposal_deadline }}</strong>.</p>
   </div>

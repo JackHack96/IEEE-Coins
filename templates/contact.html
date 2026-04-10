@@ -1,10 +1,9 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Contact{% endblock %}
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Contact</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Contact</div>
     <h1>Contact Us</h1>
     <p>Questions about submissions, registration, VISA letters, or any other aspect of {{ conf.meta.short_name }}?</p>
   </div>

@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}PhD Forum{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Program <span class="breadcrumb-sep">›</span> PhD Forum</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Program <span class="breadcrumb-sep">›</span> PhD Forum</div>
     <h1>{{ conf.phd_forum.title }}</h1>
     <p>A dedicated venue for doctoral students to present research, receive expert feedback, and network with peers and potential collaborators.</p>
   </div>

@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Registration{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Registration</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Registration</div>
     <h1>Registration &amp; Camera Ready</h1>
     <p>Register for {{ conf.meta.short_name }} and submit your camera-ready paper. Early registration deadline: <strong style="color:var(--accent)">{{ conf.registration.early_deadline }}</strong>.</p>
   </div>

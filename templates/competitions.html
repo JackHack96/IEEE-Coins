@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Competitions{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Program <span class="breadcrumb-sep">›</span> Competitions</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Program <span class="breadcrumb-sep">›</span> Competitions</div>
     <h1>Competitions</h1>
     <p>{{ conf.meta.short_name }} hosts hands-on competitions and challenges open to student teams and researchers. Prizes awarded at the gala dinner.</p>
   </div>

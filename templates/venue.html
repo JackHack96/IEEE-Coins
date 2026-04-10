@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Conference Venue{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Conference Venue</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Conference Venue</div>
     <h1>Conference Venue</h1>
     <p>{{ conf.venue.institution }}, {{ conf.venue.name }}, {{ conf.venue.city }}, {{ conf.venue.country }} · {{ conf.dates.conference_display }}</p>
   </div>

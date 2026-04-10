@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% set depth = "../" %}
 {% block title %}Workshops{% endblock %}
 
 {% block content %}
 <div class="page-hero">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="{{ depth }}index.html">Home</a><span class="breadcrumb-sep">›</span> Program <span class="breadcrumb-sep">›</span> Workshops</div>
+    <div class="breadcrumb"><a href="{{ base_url }}/index.html">Home</a><span class="breadcrumb-sep">›</span> Program <span class="breadcrumb-sep">›</span> Workshops</div>
     <h1>Workshops</h1>
     <p>Co-located workshops provide focused forums for emerging and cross-disciplinary topics within the {{ conf.meta.acronym }} community.</p>
   </div>
